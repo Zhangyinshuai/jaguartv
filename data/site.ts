@@ -68,7 +68,12 @@ export const benefits = [
 
 export const supportItems = [
   { icon: BookOpen, label: "Tutoriais públicos", value: "Instalação, uso e venda" },
-  { icon: Download, label: "Materiais abertos", value: "Posts, banners e copies" },
+  {
+    icon: Download,
+    label: "Materiais abertos",
+    value: "Posts, banners e copies",
+    badge: "Atualizado Diariamente"
+  },
   { icon: Users, label: "Comunidade", value: "Grupo para troca e suporte" },
   { icon: ShieldCheck, label: "Marca confiável", value: "Processo simples e direto" }
 ];
